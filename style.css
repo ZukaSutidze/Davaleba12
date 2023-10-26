@@ -35,6 +35,7 @@ body {
 
 header{
   position: relative;
+  overflow-x: hidden;
 }
 
 .Headerimg{
