@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+
+@media (width >1439px) {
+     
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Alata' , 'Josefin Sans';
+ }
+
+.main{
+    width: 1440px;
+}
+
+.Icons-and-Loop{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+}
+
+.Last-image{
+    padding-left: 120px;
+}
+
+.Davigaleamiswerit{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+ header{
+    top: -8px;
+    
+}
+
+ .Last-Footer{
+    flex-direction: row;
+ }
+ 
+ .Last-div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+ }
+
+ .REAL-Last-p{
+    opacity: 0.5;
+ }
+
+ .DeskTop:hover{
+    transition:all 2s;
+    scale: 1.1;
+    filter: contrast(25%);
+}
+
+ .Text-Onimg p , .Text-Onimg-2 p {
+    font-size: 32px;
+     width: 144px;
+ }
+
+ .Text-Onimg{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 140px;
+    top: 56%;
+    left: 15%;
+    z-index: 3;
+ }
+
+ .Text-Onimg-2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 140px;
+    top: 70%;
+    left: 15%;
+    z-index: 3;
+    white-space: nowrap;
+
+ }
+
+ .Creation{
+    white-space: nowrap;
+    font-size: 48px;
+}
+
+ 
+ button{
+    left: 40px;
+ }
+
+ .ForDeskTop-Button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 512px;    
+ }
+
+ 
+
+ .Textbox-1{
+    width: 541px;
+    height: 317px;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    right: 150px;
+ }
+
+ .First-p{
+    width: 445px;
+    position: absolute;
+    font-size: 48px;
+    right: 0;
+    padding-bottom: 50px;
+ }
+
+ .Second-p{
+    width: 445px;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }
+
+ .Desktopbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .MobileButton{
+    display: none;
+ }
+
+ .Maninvr{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 185px;
+ }
+
+ .Desktopguy{
+    display: flex;
+ 
+ }
+
+ .Mobileguy{
+    display: none;
+ }
+
+ .Insteaofmenu h3{
+    color: #FFF;
+    font-family: 'Alata';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.667%  ;
+ }
+
+ .Insteaofmenu{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 60px;
+    right: 165px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+ }
+
+ .logo{
+    display: none;
+ }
+
+ .Headerimg{
+    display: none;
+ }
+ .HeaderimgDesktop{
+    display: block;
+ }
+ 
+ .Header-text{
+    left: 165px;
+    top: 64px;
+ }
+
+ .Border{
+    width : 650px;
+    height: 278px;
+    left: 10%;
+ }
+ 
+ .Border-text {
+    width: 580px;
+    font-size: 40px;
+    line-height: 73px;
+    opacity: 1;
+ }
+
+  
+ .Burgermenu{
+    display: none;
+ }
+
+ .Mobile{
+    display: none;
+ }
+
+ .DeskTop{
+    display: block;
+ }
+
+ .Imagebox-1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 15px;
+    column-gap: 25px;
+ }
+
+ .Imagebox-2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;  
+    column-gap: 25px;
+
+ }
+    
+}
